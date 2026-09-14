@@ -13,7 +13,7 @@ export default function Contact() {
     >
       <motion.h2
         variants={fadeUp}
-        className="font-display font-bold text-3xl md:text-5xl text-ink mb-8 leading-tight"
+        className="font-display font-bold text-3xl md:text-5xl text-ink mb-8 leading-tight bg-gradient-to-r from-blue-800 to-cyan-300 text-transparent bg-clip-text"
       >
         Let's build something.
       </motion.h2>
@@ -36,7 +36,7 @@ export default function Contact() {
           href="https://github.com/Imrane-BH"
           target="_blank"
           rel="noreferrer"
-          className="hover:text-accent transition-colors"
+          className="hover:text-accent transition-colors hover:scale-105 transition:transform duration-300"
         >
           GitHub
         </a>
@@ -45,11 +45,12 @@ export default function Contact() {
           href="https://www.linkedin.com/in/imrane-bhihi-969077395/"
           target="_blank"
           rel="noreferrer"
-          className="hover:text-accent transition-colors"
+          className="hover:text-accent transition-colors hover:scale-105 transition:transform duration-300"
         >
           LinkedIn
-        </a>
+        </a> 
       </motion.div>
+      <div className=" border-l border-blue-400 pl-3 mt-2 text-ink lg:font-bold">Contact me : 06 82 50 86 42</div>
     </motion.section>
   );
 }

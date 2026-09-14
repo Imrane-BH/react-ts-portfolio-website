@@ -22,7 +22,7 @@ export default function About() {
         <img
           src={photo}
           alt="Imrane Bhihi"
-          className="w-full max-w-sm mx-auto md:mx-0 aspect-[4/5] object-cover  border border-hairline"
+          className="w-full max-w-sm mx-auto md:mx-0 aspect-[4/5] object-cover  border border-hairline rounded-4xl shadow-2xl"
         />
       </motion.div>
 

@@ -39,12 +39,12 @@ export default function Process() {
         How I Work
       </motion.h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 ">
         {steps.map((step, i) => (
           <motion.div
             key={step.number}
             variants={fadeUp}
-            className={`relative py-10 md:py-0 md:px-8 ${
+            className={`relative py-10 md:py-0 md:px-8 bg-gradient-to-br from-blue-300 hover:shadow-2xl duration-500 px-6 md:py-8 mt-3 rounded-2xl ${
               i !== 0 ? "border-t md:border-t-0 md:border-l border-hairline" : ""
             }`}
           >
